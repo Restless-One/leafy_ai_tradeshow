@@ -1,0 +1,43 @@
+name: Feature or user story
+description: Create a Jira-linked implementation item.
+title: "[LEAFY-000] "
+labels: ["feature"]
+body:
+  - type: input
+    id: jira
+    attributes:
+      label: Jira issue
+      placeholder: LEAFY-000
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Intended outcome
+      description: Describe the user or system outcome, not only the code change.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      placeholder: Given / When / Then
+    validations:
+      required: true
+  - type: dropdown
+    id: risk
+    attributes:
+      label: Safety risk
+      options: [Low, Medium, High]
+    validations:
+      required: true
+  - type: input
+    id: confluence
+    attributes:
+      label: Confluence page or ADR
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Planned test and evidence
+    validations:
+      required: true

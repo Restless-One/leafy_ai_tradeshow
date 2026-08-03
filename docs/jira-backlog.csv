@@ -1,0 +1,17 @@
+Summary,Issue Type,Priority,Epic Name,Epic Link,Description,Acceptance Criteria,Labels,Sprint
+Project foundations,Epic,Highest,Project Foundations,,Establish the team workflow and access.,GitHub Jira Confluence and Teams are configured with owners.,governance,Sprint 1
+Confirm stakeholder requirements,Story,Highest,,Project Foundations,Confirm users scope constraints and minimum autonomous-growing definition.,Requirements and unresolved questions are reviewed by the designated project owner.,requirements,Sprint 1
+Map team members to role slots,Task,High,,Project Foundations,Complete skills assessment and role assignment.,Every role has a named owner backup and Scrum Master Sprint.,people,Sprint 1
+Technical foundation,Epic,Highest,Technical Foundation,,Prove the deployment data and integration baseline.,Stack ADR is accepted and CI is green.,platform,Sprint 2
+Build farm simulator,Story,Highest,,Technical Foundation,Provide deterministic sensor camera and actuator interfaces.,Simulator uses capability-neutral adapter contracts and does not assume unconfirmed Farm API endpoints or control groups.,integration,Sprint 2
+Create relational data model,Story,Highest,,Technical Foundation,Store readings plans decisions approvals executions and audit events.,Migration is generated reviewed and applied in a clean environment.,data,Sprint 2
+Complete stack selection ADR,Task,Highest,,Technical Foundation,Score baseline and alternatives against agreed criteria.,Confluence ADR is accepted before Sprint 3 work starts.,architecture,Sprint 2
+Read-only demonstration,Epic,Highest,Read-only Demonstration,,Deliver data to AI recommendation to Dashboard.,End-to-end demo is ready for 9 August presentation.,demo,Sprint 3
+Ingest sensor snapshot,Story,Highest,,Read-only Demonstration,Read simulated or real sensor data into persistent storage.,Dashboard displays timestamped validated readings.,backend,Sprint 3
+Generate structured recommendation,Story,Highest,,Read-only Demonstration,Produce recommendation evidence confidence risk and explanation.,Invalid model output is rejected and logged.,ai,Sprint 3
+Safety MVP,Epic,Highest,Safety MVP,,Deliver deterministic validation approval and audit.,No action bypasses the policy engine.,security,Sprint 4
+Implement policy engine,Story,Highest,,Safety MVP,Validate evidence units limits risk and approval requirement.,Blocked and allowed cases are covered by automated tests.,security,Sprint 4
+Implement human approval,Story,Highest,,Safety MVP,Record authenticated approve or reject decisions.,Duplicate and unauthenticated decisions fail safely.,security,Sprint 4
+Real integration,Epic,High,Real Integration,,Connect approved Farm interfaces and freeze features.,Full path works with real or high-fidelity replay data.,integration,Sprint 5
+Evaluate canopy coverage,Story,High,,Real Integration,Measure one bounded vision task against Biology labels.,Evaluation results and limitations are documented.,vision,Sprint 5
+Release and handover,Epic,Highest,Release and Handover,,Complete UAT documentation release and presentation.,Stakeholder accepts release or all gaps are documented.,release,Sprint 6
