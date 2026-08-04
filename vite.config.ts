@@ -1,9 +1,6 @@
 import vinext from "vinext";
 import { defineConfig } from "vite";
 
-const SITE_CREATOR_PLACEHOLDER_DATABASE_ID =
-  "00000000-0000-4000-8000-000000000000";
-
 // macOS Seatbelt blocks FSEvents, so Codex previews need polling for HMR.
 const isCodexSeatbeltSandbox = process.env.CODEX_SANDBOX === "seatbelt";
 
@@ -13,8 +10,8 @@ const localBindingConfig = {
   d1_databases: [
     {
       binding: "DB",
-      database_name: "leafy-ai-local",
-      database_id: SITE_CREATOR_PLACEHOLDER_DATABASE_ID,
+      database_name: "leafy-ai-tradeshow",
+      database_id: "d93e7e5d-0d2e-4387-bb06-917382ac9bb8",
     },
   ],
   r2_buckets: [],
