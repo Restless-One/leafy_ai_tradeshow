@@ -29,7 +29,7 @@
     "react-dom": "^19.2.8"
   },
   "devDependencies": {
-    "@cloudflare/vite-plugin": "^1.45.0",
+    "@cloudflare/vite-plugin": "^1.66.0",
     "@cloudflare/workers-types": "^5.20260717.1",
     "@remotion/cli": "4.0.499",
     "@tailwindcss/postcss": "4.2.1",
@@ -48,7 +48,7 @@
     "typescript": "5.9.3",
     "vinext": "0.0.50",
     "vite": "^8.1.5",
-    "wrangler": "^4.111.0"
+    "wrangler": "^4.154.0"
   },
   "overrides": {
     "@esbuild-kit/core-utils": {
